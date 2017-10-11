@@ -1,0 +1,72 @@
+/* =================================
+  Base Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Georgia', sans-serif;
+	margin: 0;
+	display: block;
+	height: 100%;
+
+}
+
+#header {
+	background-color: black;
+	padding:50px;
+	color: white;
+	text-align: center
+}
+
+
+h1 {
+	font-size: 54px;
+	color: white;
+}
+
+a {
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+	display: inline-block;
+	float: right;
+}
+
+a:hover{
+	background-color: grey;
+	color: white;
+}
+
+/* =================================
+Style for Body
+================================= */
+
+h2 {
+ color: white;
+ font-size: 40px;
+}
+
+p{
+	font-family: Georgia;
+	font-size: 15px;
+}
+div{
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+img{
+	float: center;
+}
+p{
+	text-align: left;
+	font-size: 15px
+}
+footer{
+	float: right;
+}
+.tab { 
+	margin-left: 40px; }
