@@ -66,7 +66,8 @@ p{
 	font-size: 15px
 }
 footer{
-	float: right;
+	position: bottom-center;
+	background-color: black;
+	color: white;
+	text-align: center;
 }
-.tab { 
-	margin-left: 40px; }
