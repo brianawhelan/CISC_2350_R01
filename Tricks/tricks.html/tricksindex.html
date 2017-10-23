@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Tricks Homework Assignment</title>
+	<link rel="stylesheet" type="text/css" href="tricks.css">
+</head>
+
+<body>
+
+	<h1>CSS Tricks</h1>
+	<div>
+		<p> Here is a link to more information and uses of the different kinds of CSS properties: <a href="https://css-tricks.com/almanac/properties/">Properties</a> </p>
+
+	</div>
+	
+	<div>	
+		<p>The first CSS property I learned about was the scrollbar. The -webkit-scrollbar family of properties consists of seven different elements that comprise a full scrollbar UI element. Heres what these elements do:</p>
+	</div>
+	
+	<div>
+		<ol>
+			<li> ::-webkit-scrollbar addresses the background of the bar itself. It is usually covered by the other elements</li>
+
+			<li>::-webkit-scrollbar-button addresses the directional buttons on the scrollbar</li>
+
+			<li>::-webkit-scrollbar-track addresses the empty space “below” the progress bar</li>
+			
+			<li>::-webkit-scrollbar-track-piece is the top-most layer of the the progress bar not covered by the draggable scrolling element (thumb)</li>
+
+			<li>::-webkit-scrollbar-thumb addresses the draggable scrolling element that resizes depending on the size of the scrollable element </li>
+
+			<li>::-webkit-scrollbar-corner addresses the (usually) bottom corner of the scrollable element, where two scrollbars might meet
+			</li>
+			
+			<li>::-webkit-resizer addresses the draggable resizing handle that appears above the scrollbar-corner at the bottom corner of some elements	</li>
+		</ol>	
+	</div>
+
+<p> How does it look?</p>	
+
+<br>
+
+<p>This is an example of the CSS propery image-rendering</p>
+
+<div class="original image"></div>
+	<h1>original image of dog</h1>
+		<img src="http://www.comrie.org.uk/wp-content/uploads/2013/06/dog-found.jpg">
+</div>
+
+<div class="second image">
+	<h2><code>image-rendering: crisp-edges</code></h2>
+		<img class="pixelated" src="http://www.comrie.org.uk/wp-content/uploads/2013/06/dog-found.jpg" alt=""/>
+</div>
+</body>	
+</html>
