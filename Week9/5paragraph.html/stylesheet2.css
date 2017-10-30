@@ -39,12 +39,3 @@ img{
   width: 650px;
 }
 
-.absolute {
-    position: absolute;
-    background: yellow;
-    color: black;
-    height: 200px;
-    width: 500px;
-    left: 50px;
-    top: 50px;
-}
