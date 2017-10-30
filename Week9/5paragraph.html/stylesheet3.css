@@ -1,17 +1,19 @@
 //* CSS styling 3 *//
+//*Multicolumn float*//
+
 
 *{
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
 nav{
   display: inline-block;
-  font-size: 30px;
+  font-size: 20px;
   left: 0px;
   background-color: lightyellow; 
-	
+}
+
 h1{
     text-align: center;
     color: lightblue;
@@ -19,22 +21,43 @@ h1{
     font-size: 80px;
 }
 
+body {
+  font-family: georgia;
+  letter-spacing: .075em;
+  color: grey;
+}
+
+.container {
+  max-width:800px;
+  position:relative;
+  margin: 0 auto;
+}
+
+/*styling each section div*/
+section { 
+    padding: 40px;
+    width: 400px;
+    float: left;
+    margin: 10px;
+    min-height: 400px;
+}
+
 #section1 {
-	border: solid pink 10px;
+	background-color: pink;
 }
 
 #section2 {
-	border: solid lavender 20px;
+	background-color: lavender;
 }
 
 #section3 {
-	border: solid lightyellow 30px;
+background-color: lightyellow ;
 }
 
 #section4 {
-	border: solid lightgrey 20px;
+	background-color: lightgrey;
 }
 
 #section5 {
-	border: solid aquamarine 20px;
+	background-color: aquamarine;
 }
