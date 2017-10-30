@@ -1,14 +1,17 @@
 //* CSS styling 3 *//
 
-
-
-
 *{
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
+nav{
+  display: inline-block;
+  font-size: 30px;
+  left: 0px;
+  background-color: lightyellow; 
+	
 h1{
     text-align: center;
     color: lightblue;
