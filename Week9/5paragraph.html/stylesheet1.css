@@ -16,7 +16,6 @@ h1 {
 .container {
   max-width:900px;
   position:relative;
-  border: 2px solid black;
   margin: 0 auto;
 }
 
