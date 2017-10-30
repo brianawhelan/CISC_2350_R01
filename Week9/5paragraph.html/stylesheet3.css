@@ -61,3 +61,14 @@ background-color: lightyellow ;
 #section5 {
 	background-color: aquamarine;
 }
+/*styling image*/
+
+img{
+  float: center;
+   margin: 10px;
+  min-height: 500px;
+  width: 500px;
+}
+.clearfix{
+  overflow: auto;
+  zoom: 2;
