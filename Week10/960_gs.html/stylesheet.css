@@ -1,0 +1,53 @@
+	
+#header{
+	background: url(https://image.freepik.com/foto-gratis/composicion-con-variedad-de-objetos-de-viaje-y-mapa-del-mundo_23-2147604705.jpg);
+	padding:20px;
+	color: white;
+	text-align: center;
+}
+
+h1{
+	font-family: 'Dancing Script', cursive;
+	font-size: 80px;
+	text-align: center;
+	text-shadow: 4px 4px 4px #aaa;
+	color: white;
+}
+
+body{
+	background-color: #F5F5DC;
+}
+
+/* Insert Scroll Bar styling*/
+
+
+body::-webkit-scrollbar {
+    width: .5em;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #808000;
+  outline-color:  white;
+}
+
+/**/
+
+
+.container_12 {
+    background: white;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    line-height: 250px;
+    height: 100%;
+}
+
+.photos {
+    /*padding-top: 10px;*/
+    /*width: 425px;*/
+    /*height: 300px;*/
+}
