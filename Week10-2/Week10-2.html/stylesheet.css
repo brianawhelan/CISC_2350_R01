@@ -1,0 +1,44 @@
+
+/* Gradient styling*/
+
+#gradient  {
+ background-image:
+    linear-gradient(
+      to right, 
+      aqua, 
+      lavender, 
+      rgb(255, 255, 0), 
+      coral
+      );
+    height:900;
+    width: auto;
+    font-size:20px;
+    color: black;
+    text-align: center;
+    font-family: georgia;
+}
+
+h1{
+  font-size: 60px;
+  text-align: center;
+  background-color: lavender;
+}
+
+/* Transition styling*/
+
+.box {
+  width: 150px;
+  height: 150px;
+  background: blue;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+.box:hover {
+  background-color: purple;
+  cursor: pointer;
