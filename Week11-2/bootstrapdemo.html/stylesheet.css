@@ -1,0 +1,14 @@
+
+*{
+	box-sizing: border-box;
+	text-align: center;
+}
+
+h1{
+	font-family: 'Lobster Two', cursive;
+	font-size: 60px;
+}
+
+body{
+	background-color: #F0F8FF;
+}
