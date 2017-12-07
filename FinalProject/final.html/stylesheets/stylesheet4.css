@@ -1,0 +1,164 @@
+body{
+  margin: 0;
+  padding: 0;
+  background:black;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1{
+  color: #fff;
+  text-align: center;
+  font-size: 45px;
+  margin-left: 100px;
+  font-family: 'Playfair Display', serif;
+}
+
+div.clear{
+    clear: both;
+}
+
+#content{
+    height: 600px;
+    display: block;
+    margin-left: 150px;
+    margin-right: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#content1{
+    height: 30vh;
+    display: block;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#information {
+    display: block;
+    margin-left: 150px;
+    margin-right: 100px;
+    padding-bottom: 0;
+    padding-bottom: 0; 
+    color: #fff;
+  }
+
+img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    max-width: 100%;
+    height: auto;
+    float: center;
+}
+
+#haircuts{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    float: left;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+    margin-top: -200px;
+}
+
+.main{
+  margin-left: 200px;
+}
+
+/*Menu*/
+.menu-icon{
+  position: relative;
+  top: 20px;
+  right: 20px;
+  width: 50px;
+  height: 44px;
+  padding: 4px, 8px; 
+  background: #fff;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+
+/* Side Bar styling*/
+.sidebar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100vh;
+  background: #262626;
+  transition: .5s;
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;  
+}
+
+/* Inside side bar styling*/
+
+.sidebar .menu {
+  margin: 0;
+  padding: 40px 0;
+}
+
+.sidebar .menu li{
+  list-style: none;
+  font-family: 'Playfair Display', serif;
+}
+
+.sidebar .menu li a{
+  display: block;
+  padding: 10px 0;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+.sidebar .menu li a:hover{
+  background-color: #696969;
+}
+
+/* logo*/
+#logo{
+  height: 220px;
+  padding-bottom: 10px;
+}
+
+/* Social Icons*/
+.social-icon{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  display: flex;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.social-icon li{
+  width: 20%;
+  text-align: center;
+  list-style: none;
+}
+.social-icon li a{
+  display: block;
+  font-size: 18px;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 20px; 
+}
+.social-icon li a:hover{
+   background-color: #696969;
+}
+
+
